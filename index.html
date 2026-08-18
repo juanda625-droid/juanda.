@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LA SIERRA CAUCA | Gamer</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="logo">LA SIERRA <span>CAUCA</span></div>
+        <p class="subtitulo">EXPLORA • DESCUBRE • VIVE</p>
+    </header>
+
+    <!-- MENÚ PRINCIPAL CON SUBENLACES -->
+    <nav class="menu">
+        <ul>
+            <li><a href="#inicio">⌂ INICIO</a></li>
+
+            <li class="dropdown">
+                <a href="#lugares">▣ LUGARES ▾</a>
+                <ul class="submenu">
+                    <li><a href="#cascadas">⚡ Cascadas</a></li>
+                    <li><a href="#miradores">◈ Miradores</a></li>
+                    <li><a href="#naturaleza">☘ Naturaleza</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#gastronomia">◉ GASTRONOMÍA ▾</a>
+                <ul class="submenu">
+                    <li><a href="#pan-maiz">★ Pan de maíz</a></li>
+                    <li><a href="#sabores">★ Sabores locales</a></li>
+                </ul>
+            </li>
+
+            <li class="dropdown">
+                <a href="#cultura">◆ CULTURA ▾</a>
+                <ul class="submenu">
+                    <li><a href="#tradiciones">♛ Tradiciones</a></li>
+                    <li><a href="#artesanias">♜ Artesanías</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#contacto">✉ CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <main id="inicio">
+        <section class="hero">
+            <div class="hero-text">
+                <p class="tag">[ NUEVA AVENTURA DETECTADA ]</p>
+                <h1>CONOCE<br><span>LA SIERRA CAUCA</span></h1>
+                <p>Descubre paisajes, cultura, gastronomía y lugares increíbles de nuestro territorio.</p>
+                <a class="boton" href="#lugares">▶ COMENZAR EXPLORACIÓN</a>
+            </div>
+
+            <div class="hero-image">
+                <img src="imagenes/sierra.webp" alt="Paisaje de La Sierra Cauca">
+            </div>
+        </section>
+
+        <section id="lugares" class="seccion">
+            <div class="titulo-seccion">
+                <span>01 //</span>
+                <h2>MAPA DE AVENTURAS</h2>
+            </div>
+
+            <p class="intro">En este pueblo puedes recorrer lugares hermosos, descubrir paisajes y vivir nuevas experiencias.</p>
+
+            <div class="cards">
+                <article id="cascadas" class="card">
+                    <div class="icono">⚡</div>
+                    <h3>CASCADAS</h3>
+                    <p>Explora espacios naturales llenos de agua, vegetación y aventura.</p>
+                    <a href="#naturaleza">VER MÁS →</a>
+                </article>
+
+                <article id="miradores" class="card">
+                    <div class="icono">◈</div>
+                    <h3>MIRADORES</h3>
+                    <p>Disfruta de paisajes y vistas increíbles de La Sierra Cauca.</p>
+                    <a href="#lugares-fotos">VER FOTOS →</a>
+                </article>
+
+                <article id="naturaleza" class="card">
+                    <div class="icono">☘</div>
+                    <h3>NATURALEZA</h3>
+                    <p>Conoce la diversidad de lugares y ambientes que hacen especial la región.</p>
+                    <a href="#lugares-fotos">EXPLORAR →</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="lugares-fotos" class="galeria">
+            <div class="titulo-seccion">
+                <span>02 //</span>
+                <h2>GALERÍA DE DESTINOS</h2>
+            </div>
+
+            <div class="contenedor">
+                <div class="slider">
+                    <span style="--i:1;"><img src="imagenes/paris.webp" alt="Destino turístico"></span>
+                    <span style="--i:2;"><img src="imagenes/roma.webp" alt="Destino turístico"></span>
+                    <span style="--i:3;"><img src="imagenes/egi.webp" alt="Destino turístico"></span>
+                    <span style="--i:4;"><img src="imagenes/lag.webp" alt="Destino turístico"></span>
+                </div>
+            </div>
+        </section>
+
+        <section id="gastronomia" class="seccion">
+            <div class="titulo-seccion">
+                <span>03 //</span>
+                <h2>GASTRONOMÍA</h2>
+            </div>
+
+            <div class="cards">
+                <article id="pan-maiz" class="card destacado">
+                    <div class="icono">★</div>
+                    <h3>PAN DE MAÍZ</h3>
+                    <p>Conoce uno de los sabores tradicionales que hacen parte de la identidad local.</p>
+                </article>
+
+                <article id="sabores" class="card destacado">
+                    <div class="icono">◉</div>
+                    <h3>SABORES LOCALES</h3>
+                    <p>Descubre preparaciones y productos representativos de nuestra comunidad.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="cultura" class="seccion">
+            <div class="titulo-seccion">
+                <span>04 //</span>
+                <h2>CULTURA</h2>
+            </div>
+
+            <div class="cards">
+                <article id="tradiciones" class="card">
+                    <div class="icono">♛</div>
+                    <h3>TRADICIONES</h3>
+                    <p>Conoce las costumbres y expresiones culturales que identifican a la región.</p>
+                </article>
+
+                <article id="artesanias" class="card">
+                    <div class="icono">♜</div>
+                    <h3>ARTESANÍAS</h3>
+                    <p>Descubre el trabajo y la creatividad presentes en la cultura local.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <p class="tag">[ TRANSMISIÓN ABIERTA ]</p>
+            <h2>¿LISTO PARA EXPLORAR?</h2>
+            <p>Institución Educativa Francisco José de Caldas · Grado Octavo · 2026</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 LA SIERRA CAUCA // PROYECTO GRADO OCTAVO</p>
+    </footer>
+</body>
+</html>
